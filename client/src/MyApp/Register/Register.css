@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Antic", sans-serif;
+}
+.signup_container {
+  width: 100%;
+  height: 100vh;
+}
+.signup_header {
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 1px;
+  border-bottom: 3px solid;
+  width: 150px;
+  margin: 15px auto;
+  padding-bottom: 3px;
+}
+
+.signup_form_box {
+  width: 450px;
+  padding: 15px;
+  margin: 0px auto;
+}
+label {
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+.input_field {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  width: 100%;
+  height: 35px;
+  border-radius: 4px;
+  padding-left: 12px;
+  outline: none;
+  border: none;
+  border: 1px solid;
+}
+.input_textarea_field {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  width: 100%;
+  height: 100px;
+  border-radius: 4px;
+  padding-left: 12px;
+  padding-top: 7px;
+  outline: none;
+  border: none;
+  border: 1px solid;
+}
+.select_field {
+  width: 100%;
+  border-radius: 4px;
+  height: 30px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.input_field:focus {
+  border: 2px solid skyblue;
+}
+.input_field_error {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  width: 100%;
+  height: 35px;
+  border-radius: 4px;
+  padding-left: 12px;
+  outline: none;
+  border: none;
+  border: 2px solid tomato;
+}
+.btn_signup {
+  text-align: center;
+  margin-top: 12px;
+}
+.signup,
+.cancel,
+.signin {
+  width: 120px;
+  height: 35px;
+  border: none;
+  outline: none;
+  color: aliceblue;
+  background-color: #3498db;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.cancel {
+  background-color: tomato;
+}
+.signup:hover {
+  background-color: #57b6f5;
+}
+.redirect_login {
+  margin-left: 70%;
+  text-align: center;
+  width: 130px;
+  font-size: 0.8rem;
+  color: #3498db;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.2s linear;
+  padding-bottom: 3px;
+}
+.redirect_login:hover {
+  border-bottom: 2px solid #57b6f5;
+}
+.post_container {
+  width: 100%;
+  min-height: 100vh;
+}
+.card_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.card {
+  border: 1px solid;
+  cursor: pointer;
+  margin: 12px;
+  width: 300px;
+  height: 350px;
+  border-radius: 5px;
+}
+.post_text {
+  font-weight: 800;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.image1 {
+  width: 150px;
+  height: 160px;
+}
+.logout_btn {
+  text-align: right;
+}
+.logout {
+  width: 120px;
+  height: 35px;
+  border: none;
+  outline: none;
+  color: aliceblue;
+  background-color: tomato;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.signin {
+  background-color: teal;
+}
